@@ -1,0 +1,111 @@
+@charset "utf-8";
+/* CSS Document */
+header {
+  height: 60%;
+  width: 100%;
+}
+.logo {
+  padding-top: 10px
+}
+.menu {
+  padding-top: 15px
+}
+.menu ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex
+}
+.menu ul li a {
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: 17px;
+  color: #464646;
+  border-radius: 20px
+}
+.menu ul li a:hover {
+  background-color: darkred;
+  color: white
+}
+.icon-icon {
+  padding-top: 10px
+}
+.ml-10 {
+  margin-left: 10px
+}
+main {
+  width: 100%;
+  min-height: 500px
+}
+#feature {
+  width: 100%;
+  min-height: 550px;
+  background-image: url("../images/bg2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom center
+}
+.gach-chan {
+  border-bottom: 3px solid darkred
+}
+.pt-30 {
+  padding-top: 40px
+}
+.text-do {
+  color: darkred
+}
+.vien-trang {
+  border: 2px solid #FFFFFF;
+  text-align: center;
+  padding: 20px
+}
+.vien-trang a {
+  text-decoration: none;
+  color: darkred;
+  cursor: pointer
+}
+.vien-trang a:hover {
+  color: white
+}
+#contact{
+	width: 100%; min-height: 500px; background-image: url("../images/Banner2.png");background-repeat: no-repeat; background-size: cover; background-position: center top
+}
+.shadow{
+	min-height: 200px; border: 1px solid gray; box-shadow: 5px 5px 5px gray; padding: 30px
+}
+.form-control{
+	padding: 8px; width: 100%; margin-bottom: 10px
+}
+.banner{
+	width: 100%; min-height: 500px
+}
+#slide .owl-dots{ position:absolute; bottom: 10px; left:45%;}
+#slide .owl-dots .owl-dot span {
+      width: 12px;
+      height: 12px; 	
+}
+#slide .owl-nav .owl-next{ position:absolute; right:5%;}
+#slide .owl-nav .owl-prev{ position:absolute; left:5%;}
+#slide .owl-nav [class*='owl-']:hover {
+      background:none;border: none;
+      color:darkred;
+      text-decoration: none; }
+#slide .owl-nav { position:absolute; left:0px; top:40%; width:100%; }
+#slide .owl-nav [class*='owl-'] {
+	font-size:60px; /*background:rgba(255,255,255,.5);border:1px solid #fff; */ color: #fff
+}
+.vien{
+	border: 1px solid darkred; padding: 10px; border-radius: 5px; width: 100%; position: relative; overflow: hidden
+}
+.icon{
+	width: 80%; height: 45px; position: absolute; left: 10%; top: -15%; display: flex; justify-content: space-around; transition: all 1s
+}
+.icon a{
+	width: 45px; height: 45px; background-color: darkred; border-radius: 50%; display: flex; justify-content: center; align-items: center; text-decoration: none; color: aliceblue
+}
+.icon a:hover{
+	background-color: gray; color: darkred
+}
+.vien:hover .icon{
+	top: 40%
+}
